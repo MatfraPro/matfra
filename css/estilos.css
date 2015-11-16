@@ -1,0 +1,76 @@
+* {
+   font-family: monospace, serif;
+   font-size: 14pt;
+   line-height: 30pt;
+   text-align: center;
+}
+input {
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+    -webkit-border-radius:10px;
+
+    border:1px solid #ccc;
+    font-size:14pt;
+    padding:5px 10px;
+}
+input[type=button] {
+    background: -moz-linear-gradient(#ffffff, #dfdfdf);
+    background: -ms-linear-gradient(#ffffff, #dfdfdf);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #dfdfdf));
+    background: -webkit-linear-gradient(#ffffff, #dfdfdf);
+    background: -o-linear-gradient(#ffffff, #dfdfdf);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dfdfdf');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dfdfdf')";
+    background: linear-gradient(#ffffff, #dfdfdf);
+}
+form{
+   padding: 100px;
+   padding-top: 0px;
+}
+button {
+   border: 1px solid black;
+   border-radius: 10px;
+   cursor: pointer;
+   margin: 20px auto;
+   padding: 0 10px;
+}
+
+.correct {
+   border:2px solid green;
+   border-radius: 10px;
+   margin: 10px;
+   padding: 10px;
+   text-align: left;
+}
+
+.error {
+   border:2px solid red;
+   border-radius: 10px;
+   margin: 10px;
+   padding: 10px;
+   text-align: left;
+}
+
+fieldset {
+   border: 1px solid black;
+   border-radius: 20px;
+   box-shadow: 5px 5px 5px #888;
+   margin: 0 auto;
+   width: 75%;
+}
+
+fieldset div {
+   text-align: left;
+}
+
+legend {
+   padding: 0 10px;
+   text-transform: uppercase;
+}
+
+span {
+   border: 1px solid blue;
+   padding: 5px;
+}

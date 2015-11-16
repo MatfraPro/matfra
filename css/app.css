@@ -1,0 +1,25 @@
+/* Change html headers color */
+	h1,h2,h3,h4,h5 {
+	    color:#ff0a9e;
+	}
+	h2.mc-text-danger,
+	h3.mc-text-danger  {
+	    color:red;
+	}
+	/* Change border radius of icon buttons */
+	.ui-btn-icon-notext.ui-corner-all {
+	    -webkit-border-radius: 0em;
+	    border-radius: 0em;
+	}
+	/* Change color of jQuery Mobile page headers */
+	.ui-title {
+	    color:#fff;
+	}
+	/* Center-aligned text */
+	.mc-text-center {
+	    text-align:center;
+	}
+	/* Top margin for some elements */
+	.mc-top-margin-1-5 {
+	    margin-top:0em;
+	}

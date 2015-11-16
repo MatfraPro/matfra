@@ -1,0 +1,4 @@
+ html, body{ margin:0px; padding:0px; }
+    body{ display:block; width:100%; height:100%; }
+    #main{ display:block; width:80%; padding:50px 10%; height:300px; }
+    #datos{ display:block; width:30%; padding:50px 10%; height:30px; }
